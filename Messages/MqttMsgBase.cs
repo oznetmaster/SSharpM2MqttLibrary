@@ -30,7 +30,7 @@ namespace uPLibrary.Networking.M2Mqtt.Messages
 		internal const byte MSG_TYPE_MASK = 0xF0;
 		internal const byte MSG_TYPE_OFFSET = 0x04;
 		internal const byte MSG_TYPE_SIZE = 0x04;
-		internal const byte MSG_FLAG_BITS_MASK = 0x0F; // [v3.1.1]
+		internal const byte MSG_FLAG_BITS_MASK = 0x09; // [v3.1.1]
 		internal const byte MSG_FLAG_BITS_OFFSET = 0x00; // [v3.1.1]
 		internal const byte MSG_FLAG_BITS_SIZE = 0x04; // [v3.1.1]
 		internal const byte DUP_FLAG_MASK = 0x08;
