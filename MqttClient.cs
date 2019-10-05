@@ -16,7 +16,7 @@ Contributors:
 
 using System;
 using Crestron.SimplSharp;
-using Environment = SSMono.Environment;
+using Environment = Crestron.SimplSharp.CrestronEnvironmentEx;
 using SSMono.Net;
 using Socket = Crestron.SimplSharp.CrestronSockets.CrestronClientSocket;
 #if !(WINDOWS_APP || WINDOWS_PHONE_APP)
